@@ -1,0 +1,1 @@
+require("hestudio-bingwallpaper-get");

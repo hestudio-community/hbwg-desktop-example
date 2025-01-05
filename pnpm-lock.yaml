@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       hestudio-bingwallpaper-get:
-        specifier: ^1.4.5
-        version: 1.4.5
+        specifier: 1.4.6
+        version: 1.4.6
 
 packages:
 
@@ -152,8 +152,8 @@ packages:
     resolution: {integrity: sha512-0hJU9SCPvmMzIBdZFqNPXWa6dqh7WdH0cII9y+CyS8rG3nL48Bclra9HmKhVVUHyPWNH5Y7xDwAB7bfgSjkUMQ==}
     engines: {node: '>= 0.4'}
 
-  hestudio-bingwallpaper-get@1.4.5:
-    resolution: {integrity: sha512-j9zC9D4JwkMGfv0xFoqg9dATia84PtJMvOQUKEjqgBIIWUePnr0r3JCBjxZ9UqO7HFa0vFSeRAaC6ONtg1hsnA==}
+  hestudio-bingwallpaper-get@1.4.6:
+    resolution: {integrity: sha512-xkrxJJWl79W5o+/3g5wGH8CaVgLdE1Z23HvYBrWUm6rk78vm6iefQoRx3MpSmFsECkt14BP5aDeRPW/TVXZgLw==}
     engines: {node: '>=18.0.0'}
 
   http-errors@2.0.0:
@@ -484,7 +484,7 @@ snapshots:
     dependencies:
       function-bind: 1.1.2
 
-  hestudio-bingwallpaper-get@1.4.5:
+  hestudio-bingwallpaper-get@1.4.6:
     dependencies:
       body-parser: 1.20.3
       dayjs: 1.11.13

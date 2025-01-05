@@ -6,7 +6,9 @@ module.exports = {
   refreshtask: () => {
     logback("Outputing wallpaper.jpg ...");
     const imagePath = `${hbwgConfig.tempDir}/wallpaper.jpg`;
-    fs.writeFileSync(imagePath, hbwgConfig.image);
+    setTimeout(() => {
+      fs.writeFileSync(imagePath, hbwgConfig.image);
+    }, 1000);
     logback("Outputing wallpaper.jpg done");
     logback("Setting wallpaper ...");
     exec(
